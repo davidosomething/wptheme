@@ -1,0 +1,25 @@
+/*!
+ * Theme Name:  Joss and Main
+ * Theme URI:   http://blog.jossandmain.com/
+ * Description: Blog site for Joss and Main.
+ * Author:      David O'Trakoun, Nat Jabbawy
+ * Version:     1.2
+ */
+
+@import "variables";
+@import "normalize";
+@import "layout";
+@import "header";
+@import "feature";
+@import "subcategories";
+@import "footerbanner";
+@import "listing";
+
+@include question;
+@include quote;
+@import "single";
+
+@import "sidebar";
+@import "footer";
+@import "utility";
+@import "print";
